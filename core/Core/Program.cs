@@ -13,7 +13,7 @@ namespace Core
                 .WithLogging()
                 .Build();
             
-            connection.On("master_volume", (string volume) => 
+            connection.On("master_volume_get", (string volume) => 
             {
                 VideoPlayerController.AudioManager.SetMasterVolume(float.Parse(volume));
                 return $"Set master volume to {volume}";

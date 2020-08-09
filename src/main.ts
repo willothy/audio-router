@@ -6,8 +6,6 @@ const { ConnectionBuilder } = require("electron-cgi");
 import { app, BrowserWindow } from "electron";
 import { AudioController } from "./app/AudioController";
 
-var ac = new AudioController();
-
 let window: BrowserWindow | null;
 
 const createWindow = () => {
@@ -42,7 +40,7 @@ app.on("activate", () => {
 });
 
 
-let connection = new ConnectionBuilder()
+/*let connection = new ConnectionBuilder()
   .connectTo("dotnet", "run", "--project", "./core/Core")
   .build();
 
@@ -54,6 +52,10 @@ connection.send("master_volume", "50", (error: any, response: any) => {
   window.webContents.send("confirm", response); // Send data back to Program.cs
   console.log(response);
   connection.close();
-});
+});*/
+
+var ac = new AudioController();
+
+console.log(ac.getMasterVolume());
 
 
