@@ -47,7 +47,7 @@ app.on("activate", () => {
 
 
 
-let connection = new ConnectionBuilder()
+/*let connection = new ConnectionBuilder()
   .connectTo("dotnet", "run", "--project", "./core/Core")
   .build();
 
@@ -60,12 +60,14 @@ connection.send("master_volume_get", (error: any, response: any) => {
   console.log(response);
   masterVol = response.toInt();
   connection.close();
-});
+});*/
 
 function main() {
   var ac = new AudioController();
 
-  console.log (ac.getMasterVolume());
+  ac.getMasterVolume((res: any) => {
+    //console.log(res);
+  });
 }
 
 main();

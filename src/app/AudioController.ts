@@ -33,42 +33,43 @@ export class AudioController {
 
     closeConnection() {
         this.connection.close();
-        return 0;
     }
 
-    tempValue(value: any) {
-        this.tempProp = value;
-        return value;
-    }
-
-
-    delay(ms: number) {
-        return new Promise( resolve => setTimeout(resolve, ms) );
-    }
-
-    async waitForValue(): Promise<String> {
-        if (this.tempProp != undefined) {
-            return this.tempProp;
-        } else {
-            await this.delay(30);
-            return await this.waitForValue();
-        }
-    }
-
-    getMasterVolume_A() {
-        this.connection.send("master_volume_get").then((res: any) => {
-            this.tempValue(res);
+    getMasterVolume(callback: Function) {
+        this.connection.send("master_volume_get", (err:any, res: any) => {        
+            callback(res, err);
         });
-        this.waitForValue().then((res: any) => {
-            this.tempValue(res);
-        });
-        return true;
     }
 
-    getMasterVolume() {
-        this.getMasterVolume_A();
-        
-        return this.tempProp;
+    setMasterVolume(value: string, callback: Function) {
+        this.connection.send("master_volume_set", value, (err:any, res: any) => {        
+            callback(res, err);
+        });
+    }
+
+    // Set negative step to decrement, positive to increment
+    stepMasterVolume(stepAmount: number, callback: Function) {
+        this.connection.send("master_volume_step", stepAmount, (err:any, res: any) => {        
+            callback(res, err);
+        });
+    }
+
+    getMasterVolumeMute(callback: Function) {
+        this.connection.send("master_volume_mute_get", (err:any, res: any) => {        
+            callback(res, err);
+        });
+    }
+
+    setMasterVolumeMute(muted: Boolean, callback: Function) {
+        this.connection.send("master_volume_mute_set", muted, (err:any, res: any) => {        
+            callback(res, err);
+        });
+    }
+
+    toggleMasterVolumeMute(callback: Function) {
+        this.connection.send("master_volume_mute_toggle", (err:any, res: any) => {        
+            callback(res, err);
+        });
     }
     
 }
