@@ -1,0 +1,5 @@
+node_modules/
+core/Core/bin/
+core/Core/Core.sln
+core/Core/.vs/
+dist/
