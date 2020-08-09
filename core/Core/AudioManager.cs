@@ -1,5 +1,19 @@
 using System;
 using System.Runtime.InteropServices;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using CSCore;
+using CSCore.Codecs.WAV;
+using CSCore.CoreAudioAPI;
+using CSCore.SoundIn;
+using CSCore.SoundOut;
+using CSCore.Streams;
+using CSCore.Win32;
 // ReSharper disable SuspiciousTypeConversion.Global
 // ReSharper disable InconsistentNaming
 
@@ -13,6 +27,8 @@ namespace VideoPlayerController
     public static class AudioManager
     {
         #region Master Volume Manipulation
+
+        
 
         /// <summary>
         /// Gets the current master volume in scalar values (percentage)
@@ -242,6 +258,107 @@ namespace VideoPlayerController
             Guid guid = Guid.Empty;
             volume.SetMute(mute, ref guid);
             Marshal.ReleaseComObject(volume);
+        }
+
+        public enum CaptureMode
+        {
+            Capture,
+            LoopbackCapture
+        }
+
+        private static bool DeviceMatches(MMDevice device, string name)
+        {
+            return device.FriendlyName.ToLower().Contains(name.ToLower());
+        }
+
+        public static MMDevice[] getPossibleSourceDevices()
+        {
+            var captureMode = CaptureMode.LoopbackCapture;
+            MMDevice sourceDevice = null;
+            MMDevice targetDevice = null;
+            MMDevice[] devices;
+            var deviceEnumerator = new CSCore.CoreAudioAPI.MMDeviceEnumerator();
+            using (MMDeviceCollection deviceCollection = deviceEnumerator.EnumAudioEndpoints(captureMode == CaptureMode.Capture ? DataFlow.Capture : DataFlow.Render, DeviceState.Active))
+            {
+                devices = new MMDevice[deviceCollection.Count];
+                int i = 0;
+                foreach (var device in deviceCollection)
+                {
+                    devices[i] = device;
+                    //Console.WriteLine(device.FriendlyName);
+                    i++;
+                }
+            }
+
+            return devices;
+        }
+
+        public static string[] getVolumeObjectDisplayName(int pid) {
+            IMMDeviceEnumerator deviceEnumerator = null;
+            IAudioSessionEnumerator sessionEnumerator = null;
+            IAudioSessionManager2 mgr = null;
+            IMMDevice speakers = null;
+            try
+            {
+                // get the speakers (1st render + multimedia) device
+                deviceEnumerator = (IMMDeviceEnumerator) (new MMDeviceEnumerator());
+                deviceEnumerator.GetDefaultAudioEndpoint(EDataFlow.eRender, ERole.eMultimedia, out speakers);
+
+                // activate the session manager. we need the enumerator
+                Guid IID_IAudioSessionManager2 = typeof (IAudioSessionManager2).GUID;
+                object o;
+                speakers.Activate(ref IID_IAudioSessionManager2, 0, IntPtr.Zero, out o);
+                mgr = (IAudioSessionManager2) o;
+
+                // enumerate sessions for on this device
+                mgr.GetSessionEnumerator(out sessionEnumerator);
+                
+                
+                int count;
+                sessionEnumerator.GetCount(out count);
+
+                string[] name = new string[count];
+                
+
+                // search for an audio session with the required process-id
+                ISimpleAudioVolume volumeControl = null;
+
+                for (int i = 0; i < count; ++i)
+                {
+                    IAudioSessionControl2 ctl = null;
+                    try
+                    {
+                        sessionEnumerator.GetSession(i, out ctl);
+
+                        // NOTE: we could also use the app name from ctl.GetDisplayName()
+                        int cpid;
+                        ctl.GetProcessId(out cpid);
+
+                        ctl.GetDisplayName(out string n);
+                        name[i] = n;
+
+                        if (cpid == pid)
+                        {
+                            volumeControl = ctl as ISimpleAudioVolume;
+                            
+                            break;
+                        }
+                    }
+                    finally
+                    {
+                        if (ctl != null) Marshal.ReleaseComObject(ctl);
+                    }
+                }
+
+                return name;
+            }
+            finally
+            {
+                if (sessionEnumerator != null) Marshal.ReleaseComObject(sessionEnumerator);
+                if (mgr != null) Marshal.ReleaseComObject(mgr);
+                if (speakers != null) Marshal.ReleaseComObject(speakers);
+                if (deviceEnumerator != null) Marshal.ReleaseComObject(deviceEnumerator);
+            }
         }
 
         private static ISimpleAudioVolume GetVolumeObject(int pid)

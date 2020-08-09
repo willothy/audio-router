@@ -1,5 +1,6 @@
 import { useDebugValue } from "react";
 import "@babel/polyfill";
+import { ProvidePlugin } from "webpack";
 
 const { ConnectionBuilder } = require("electron-cgi");
 
@@ -8,14 +9,10 @@ export class AudioController {
     onDisconnectedFromDotNet: Function;
     tempProp: any;
 
-    constructor(connBuilder: any = null, onDisonnected: Function = null) {
-        if (connBuilder == null) {
-            this.connection = new ConnectionBuilder()
-                .connectTo("dotnet", "run", "--project", "./core/Core")
-                .build();
-        } else {
-            this.connection = connBuilder;
-        }
+    constructor(onDisonnected: Function = null) {
+        this.connection = new ConnectionBuilder()
+            .connectTo("dotnet", "run", "--project", "./core/Core")
+            .build();
 
         if (onDisonnected == null) {
             this.onDisconnectedFromDotNet = () => {
@@ -41,7 +38,7 @@ export class AudioController {
         });
     }
 
-    setMasterVolume(value: string, callback: Function) {
+    setMasterVolume(value: number, callback: Function) {
         this.connection.send("master_volume_set", value, (err:any, res: any) => {        
             callback(res, err);
         });
@@ -68,6 +65,18 @@ export class AudioController {
 
     toggleMasterVolumeMute(callback: Function) {
         this.connection.send("master_volume_mute_toggle", (err:any, res: any) => {        
+            callback(res, err);
+        });
+    }
+
+    getPidDisplayName(pid: number, callback: Function) {
+        this.connection.send("get_pid_display_name", pid, (err:any, res: any) => {        
+            callback(res, err);
+        });
+    }
+
+    getPossibleDevices(callback: Function) {
+        this.connection.send("get_devices", (err:any, res: any) => {        
             callback(res, err);
         });
     }

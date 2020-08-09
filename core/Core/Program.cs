@@ -19,16 +19,16 @@ namespace Core
                 return $"master volume is {volume}";
             });
 
-            connection.On("master_volume_set", (string value) => 
+            connection.On("master_volume_set", (float value) => 
             {
-                VideoPlayerController.AudioManager.SetMasterVolume(Float.parse(value));
-                return $"master volume is {value}";
+                VideoPlayerController.AudioManager.SetMasterVolume(value);
+                return $"master volume is now {value}";
             });
 
             connection.On("master_volume_step", (float step) => 
             {
                 VideoPlayerController.AudioManager.StepMasterVolume(step);
-                return $"Master volume stepped by {value}";
+                return $"Master volume stepped by {step}";
             });
 
             connection.On("master_volume_mute_get", () => 
@@ -54,7 +54,40 @@ namespace Core
                 string t = (isMuted == true ? "muted" : "unmuted");
                 return $"master volume is now {t}";
             });
-            
+
+            connection.On("get_pid_display_name", (int pid) => // Doesn't actually work for display name, just jumbled data
+            {
+                string[] f = VideoPlayerController.AudioManager.getVolumeObjectDisplayName(pid);
+                string d = "";
+                for (var i = 0; i < f.Length; i++)
+                {
+                    var dev = f[i];
+                    d += $"{dev}, ";
+                }
+                return $"Display name is {d}";
+            });
+
+            connection.On("get_devices", (int pid) =>
+            {
+                string[] f = VideoPlayerController.AudioManager.getPossibleSourceDevices();
+                string d = "";
+                for (var i = 0; i < f.Length; i++)
+                {
+                    var dev = f[i];
+                    d += $"{dev}, ";
+                }
+                return $"Display name is {d}";
+            });
+
+            string[] a = VideoPlayerController.AudioManager.getPossibleSourceDevices();
+            string b = "";
+            for (var i = 0; i < a.Length; i++)
+            {
+                var dev = a[i];
+                b += $"{dev}, ";
+            }
+            Console.WriteLine($"Display name is {b}");
+
             connection.Listen();    
         }
     }

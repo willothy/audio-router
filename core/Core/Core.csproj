@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CSCore" Version="1.2.1.2" />
     <PackageReference Include="ElectronCgi.DotNet" Version="1.0.3" />
   </ItemGroup>
 

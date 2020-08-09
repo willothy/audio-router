@@ -62,15 +62,36 @@ connection.send("master_volume_get", (error: any, response: any) => {
   connection.close();
 });*/
 
-function main() {
-  var ac = new AudioController();
+var ac = new AudioController();
 
-  ac.getMasterVolume((res: any) => {
-    //console.log(res);
-  });
-}
+/*ac.getPidDisplayName(2276, (res: any) => {
+  console.log("spotify 1");
+  console.log(res);
+});
 
-main();
+ac.getPidDisplayName(2500, (res: any) => {
+  console.log("spotify 2");
+  console.log(res);
+});
+
+ac.getPidDisplayName(5916, (res: any) => {
+  console.log("spotify 3");
+  console.log(res);
+});
+
+ac.getPidDisplayName(13012, (res: any) => {
+  console.log("spotify 4");
+  console.log(res);
+});
+
+ac.getPidDisplayName(10200, (res: any) => {
+  console.log("spotify 5");
+  console.log(res);
+});*/
+
+ac.getPossibleDevices((err:any, res: any) => {
+  console.log(res);
+});
 
 
 
