@@ -1,8 +1,12 @@
+import { useDebugValue } from "react";
+import "@babel/polyfill";
+
 const { ConnectionBuilder } = require("electron-cgi");
 
 export class AudioController {
     connection: any;
     onDisconnectedFromDotNet: Function;
+    tempProp: any;
 
     constructor(connBuilder: any = null, onDisonnected: Function = null) {
         if (connBuilder == null) {
@@ -21,6 +25,7 @@ export class AudioController {
             this.onDisconnectedFromDotNet = onDisonnected;
         }
 
+
         this.connection.onDisconnect = () => {
             this.onDisconnectedFromDotNet();
         }
@@ -31,13 +36,39 @@ export class AudioController {
         return 0;
     }
 
-    getMasterVolume() {
-        return this.connection.send("master_volume_get", (error: any, response: string) => {
-            //window.webContents.send("confirm", response); // Send data back to Program.cs
-            //console.log(response);
-            //connection.close();
-            return response;
+    tempValue(value: any) {
+        this.tempProp = value;
+        return value;
+    }
+
+
+    delay(ms: number) {
+        return new Promise( resolve => setTimeout(resolve, ms) );
+    }
+
+    async waitForValue(): Promise<String> {
+        if (this.tempProp != undefined) {
+            return this.tempProp;
+        } else {
+            await this.delay(30);
+            return await this.waitForValue();
+        }
+    }
+
+    getMasterVolume_A() {
+        this.connection.send("master_volume_get").then((res: any) => {
+            this.tempValue(res);
         });
+        this.waitForValue().then((res: any) => {
+            this.tempValue(res);
+        });
+        return true;
+    }
+
+    getMasterVolume() {
+        this.getMasterVolume_A();
+        
+        return this.tempProp;
     }
     
 }
