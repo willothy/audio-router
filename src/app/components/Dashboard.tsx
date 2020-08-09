@@ -11,11 +11,11 @@ export class Dashboard extends React.Component<{}, IState> {
   };
 
   public componentDidMount(): void {
-    ipcRenderer.on("greeting", this.onMessage);
+    ipcRenderer.on("confirm", this.onMessage);
   }
 
   public componentWillUnmount(): void {
-    ipcRenderer.removeAllListeners("greeting");
+    ipcRenderer.removeAllListeners("confirm");
   }
 
   public render(): React.ReactNode {

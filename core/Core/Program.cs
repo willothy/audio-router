@@ -9,14 +9,14 @@ namespace Core
     {
         static void Main(string[] args)
         {
-            //AudioManager.SetMasterVolume(0.0);
             var connection = new ConnectionBuilder()
                 .WithLogging()
                 .Build();
             
-            connection.On("greeting", (string name) => 
+            connection.On("master_volume", (string volume) => 
             {
-                return $"Hello {name} from C#";
+                VideoPlayerController.AudioManager.SetMasterVolume(float.Parse(volume));
+                return $"Set master volume to {volume}";
             });
             
             connection.Listen();    

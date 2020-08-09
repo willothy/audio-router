@@ -4,9 +4,11 @@ const path = require("path");
 const { ConnectionBuilder } = require("electron-cgi");
 
 import { app, BrowserWindow } from "electron";
+import { AudioController } from "./app/AudioController";
+
+var ac = new AudioController();
 
 let window: BrowserWindow | null;
-
 
 const createWindow = () => {
   window = new BrowserWindow({ width: 800, height: 600 });
@@ -48,8 +50,8 @@ connection.onDisconnect = () => {
   console.log("lost");
 };
 
-connection.send("greeting", "Bongus", (error: any, response: any) => {
-  window.webContents.send("greeting", response);
+connection.send("master_volume", "50", (error: any, response: any) => {
+  window.webContents.send("confirm", response); // Send data back to Program.cs
   console.log(response);
   connection.close();
 });
