@@ -49,10 +49,7 @@ connection.onDisconnect = () => {
 };
 
 connection.send("greeting", "Bongus", (error: any, response: any) => {
-  if (error) {
-    console.log(error);
-    return;
-  }
+  window.webContents.send("greeting", response);
   console.log(response);
   connection.close();
 });
