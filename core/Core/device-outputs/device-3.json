@@ -1,0 +1,2652 @@
+{
+    "propertyStore": [
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 15
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 16,
+                "bValue": 16,
+                "iValue": 16,
+                "uiValue": 16,
+                "lValue": 16,
+                "ulValue": 16,
+                "intValue": 16,
+                "uIntValue": 16,
+                "hValue": 16,
+                "uhValue": 16,
+                "floatValue": 2.242078e-44,
+                "doubleValue": 8e-323,
+                "sCode": 16,
+                "fileTime": {
+                    "dwLowDateTime": 16,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 16,
+                    "data": {
+                        "value": 1316118329424
+                    }
+                },
+                "pointerValue": {
+                    "value": 16
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "a45c254e-df1c-4efd-8020-67d146a850e0",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -48,
+                "bValue": 208,
+                "iValue": 32720,
+                "uiValue": 32720,
+                "lValue": 1858306000,
+                "ulValue": 1858306000,
+                "intValue": 1858306000,
+                "uIntValue": 1858306000,
+                "hValue": 1316118298576,
+                "uhValue": 1316118298576,
+                "floatValue": 3.02520464e+28,
+                "doubleValue": 6.502488371894e-312,
+                "sCode": 1858306000,
+                "fileTime": {
+                    "dwLowDateTime": 1858306000,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858306000,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118298576
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 6
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -32,
+                "bValue": 224,
+                "iValue": -16160,
+                "uiValue": 49376,
+                "lValue": 1858322656,
+                "ulValue": 1858322656,
+                "intValue": 1858322656,
+                "uIntValue": 1858322656,
+                "hValue": 1316118315232,
+                "uhValue": 1316118315232,
+                "floatValue": 3.02913742e+28,
+                "doubleValue": 6.502488454186e-312,
+                "sCode": 1858322656,
+                "fileTime": {
+                    "dwLowDateTime": 1858322656,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858322656,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118315232
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 16,
+                "bValue": 16,
+                "iValue": -29936,
+                "uiValue": 35600,
+                "lValue": 1858177808,
+                "ulValue": 1858177808,
+                "intValue": 1858177808,
+                "uIntValue": 1858177808,
+                "hValue": 1316118170384,
+                "uhValue": 1316118170384,
+                "floatValue": 2.99493616e+28,
+                "doubleValue": 6.50248773854e-312,
+                "sCode": 1858177808,
+                "fileTime": {
+                    "dwLowDateTime": 1858177808,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858177808,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118170384
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "83da6326-97a6-4088-9453-a1923f573b29",
+                "propertyID": 3
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -128,
+                "bValue": 128,
+                "iValue": -18304,
+                "uiValue": 47232,
+                "lValue": 1858189440,
+                "ulValue": 1858189440,
+                "intValue": 1858189440,
+                "uIntValue": 1858189440,
+                "hValue": 1316118182016,
+                "uhValue": 1316118182016,
+                "floatValue": 2.99768269e+28,
+                "doubleValue": 6.50248779601e-312,
+                "sCode": 1858189440,
+                "fileTime": {
+                    "dwLowDateTime": 1858189440,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858189440,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118182016
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "83da6326-97a6-4088-9453-a1923f573b29",
+                "propertyID": 100
+            },
+            "value": {
+                "vartype": 64,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -112,
+                "bValue": 144,
+                "iValue": -16496,
+                "uiValue": 49040,
+                "lValue": -1324695664,
+                "ulValue": 2970271632,
+                "intValue": -1324695664,
+                "uIntValue": 2970271632,
+                "hValue": 132298451819610000,
+                "uhValue": 132298451819610000,
+                "floatValue": -2.01905337e-9,
+                "doubleValue": 8.21963325949461e-300,
+                "sCode": -1324695664,
+                "fileTime": {
+                    "dwLowDateTime": -1324695664,
+                    "dwHighDateTime": 30803133
+                },
+                "blobValue": {
+                    "length": -1324695664,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 132298451819610000
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 64
+            }
+        },
+        {
+            "key": {
+                "id": "8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 72,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 112,
+                "bValue": 112,
+                "iValue": -1424,
+                "uiValue": 64112,
+                "lValue": 1858337392,
+                "ulValue": 1858337392,
+                "intValue": 1858337392,
+                "uIntValue": 1858337392,
+                "hValue": 1316118329968,
+                "uhValue": 1316118329968,
+                "floatValue": 3.03261686e+28,
+                "doubleValue": 6.50248852699e-312,
+                "sCode": 1858337392,
+                "fileTime": {
+                    "dwLowDateTime": 1858337392,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858337392,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118329968
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 72
+            }
+        },
+        {
+            "key": {
+                "id": "9637b4b9-11ee-4c35-b43c-7b2452c993cc",
+                "propertyID": 1
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 64,
+                "bValue": 64,
+                "iValue": -960,
+                "uiValue": 64576,
+                "lValue": 1858010176,
+                "ulValue": 1858010176,
+                "intValue": 1858010176,
+                "uIntValue": 1858010176,
+                "hValue": 1316118002752,
+                "uhValue": 1316118002752,
+                "floatValue": 2.95535517e+28,
+                "doubleValue": 6.50248691033e-312,
+                "sCode": 1858010176,
+                "fileTime": {
+                    "dwLowDateTime": 1858010176,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858010176,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118002752
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "a45c254e-df1c-4efd-8020-67d146a850e0",
+                "propertyID": 24
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 80,
+                "bValue": 80,
+                "iValue": -1200,
+                "uiValue": 64336,
+                "lValue": 1858337616,
+                "ulValue": 1858337616,
+                "intValue": 1858337616,
+                "uIntValue": 1858337616,
+                "hValue": 1316118330192,
+                "uhValue": 1316118330192,
+                "floatValue": 3.03266975e+28,
+                "doubleValue": 6.5024885281e-312,
+                "sCode": 1858337616,
+                "fileTime": {
+                    "dwLowDateTime": 1858337616,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858337616,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118330192
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "1da5d803-d492-4edd-8c23-e0c0ffee7f0e",
+                "propertyID": 0
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 9,
+                "bValue": 9,
+                "iValue": 9,
+                "uiValue": 9,
+                "lValue": 9,
+                "ulValue": 9,
+                "intValue": 9,
+                "uIntValue": 9,
+                "hValue": 9,
+                "uhValue": 9,
+                "floatValue": 1.261169e-44,
+                "doubleValue": 4.4e-323,
+                "sCode": 9,
+                "fileTime": {
+                    "dwLowDateTime": 9,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 9,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 9
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "1da5d803-d492-4edd-8c23-e0c0ffee7f0e",
+                "propertyID": 8
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -96,
+                "bValue": 160,
+                "iValue": -864,
+                "uiValue": 64672,
+                "lValue": 1858010272,
+                "ulValue": 1858010272,
+                "intValue": 1858010272,
+                "uIntValue": 1858010272,
+                "hValue": 1316118002848,
+                "uhValue": 1316118002848,
+                "floatValue": 2.95537784e+28,
+                "doubleValue": 6.502486910804e-312,
+                "sCode": 1858010272,
+                "fileTime": {
+                    "dwLowDateTime": 1858010272,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858010272,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118002848
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "259abffc-50a7-47ce-af08-68c9a7d73366",
+                "propertyID": 12
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 96,
+                "bValue": 96,
+                "iValue": -15520,
+                "uiValue": 50016,
+                "lValue": 1858323296,
+                "ulValue": 1858323296,
+                "intValue": 1858323296,
+                "uIntValue": 1858323296,
+                "hValue": 1316118315872,
+                "uhValue": 1316118315872,
+                "floatValue": 3.02928854e+28,
+                "doubleValue": 6.50248845735e-312,
+                "sCode": 1858323296,
+                "fileTime": {
+                    "dwLowDateTime": 1858323296,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858323296,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118315872
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 11
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -112,
+                "bValue": 144,
+                "iValue": 29840,
+                "uiValue": 29840,
+                "lValue": 1857713296,
+                "ulValue": 1857713296,
+                "intValue": 1857713296,
+                "uIntValue": 1857713296,
+                "hValue": 1316117705872,
+                "uhValue": 1316117705872,
+                "floatValue": 2.88525636e+28,
+                "doubleValue": 6.502485443547e-312,
+                "sCode": 1857713296,
+                "fileTime": {
+                    "dwLowDateTime": 1857713296,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1857713296,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316117705872
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 12
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 1,
+                "bValue": 1,
+                "iValue": 1,
+                "uiValue": 1,
+                "lValue": 65537,
+                "ulValue": 65537,
+                "intValue": 65537,
+                "uIntValue": 65537,
+                "hValue": 65537,
+                "uhValue": 65537,
+                "floatValue": 9.18369e-41,
+                "doubleValue": 3.23796e-319,
+                "sCode": 65537,
+                "fileTime": {
+                    "dwLowDateTime": 65537,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 65537,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 65537
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "1da5d803-d492-4edd-8c23-e0c0ffee7f0e",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -32,
+                "bValue": 224,
+                "iValue": -5664,
+                "uiValue": 59872,
+                "lValue": 1858005472,
+                "ulValue": 1858005472,
+                "intValue": 1858005472,
+                "uIntValue": 1858005472,
+                "hValue": 1316117998048,
+                "uhValue": 1316117998048,
+                "floatValue": 2.95424447e+28,
+                "doubleValue": 6.50248688709e-312,
+                "sCode": 1858005472,
+                "fileTime": {
+                    "dwLowDateTime": 1858005472,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858005472,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316117998048
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "1da5d803-d492-4edd-8c23-e0c0ffee7f0e",
+                "propertyID": 7
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 1,
+                "bValue": 1,
+                "iValue": 1,
+                "uiValue": 1,
+                "lValue": 1,
+                "ulValue": 1,
+                "intValue": 1,
+                "uIntValue": 1,
+                "hValue": 1,
+                "uhValue": 1,
+                "floatValue": 1.401298e-45,
+                "doubleValue": 5e-324,
+                "sCode": 1,
+                "fileTime": {
+                    "dwLowDateTime": 1,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 1,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "e4870e26-3cc5-4cd2-ba46-ca0a9a70ed04",
+                "propertyID": 3
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 40,
+                "bValue": 40,
+                "iValue": 40,
+                "uiValue": 40,
+                "lValue": 40,
+                "ulValue": 40,
+                "intValue": 40,
+                "uIntValue": 40,
+                "hValue": 40,
+                "uhValue": 40,
+                "floatValue": 5.605194e-44,
+                "doubleValue": 2e-322,
+                "sCode": 40,
+                "fileTime": {
+                    "dwLowDateTime": 40,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 40,
+                    "data": {
+                        "value": 1316118299296
+                    }
+                },
+                "pointerValue": {
+                    "value": 40
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 10
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -14,
+                "bValue": 242,
+                "iValue": 23026,
+                "uiValue": 23026,
+                "lValue": 1830705650,
+                "ulValue": 1830705650,
+                "intValue": 1830705650,
+                "uIntValue": 1830705650,
+                "hValue": 1830705650,
+                "uhValue": 1830705650,
+                "floatValue": 3.06296055e+27,
+                "doubleValue": 9.044887693e-315,
+                "sCode": 1830705650,
+                "fileTime": {
+                    "dwLowDateTime": 1830705650,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 1830705650,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1830705650
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 5
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 28,
+                "bValue": 28,
+                "iValue": 28,
+                "uiValue": 28,
+                "lValue": 28,
+                "ulValue": 28,
+                "intValue": 28,
+                "uIntValue": 28,
+                "hValue": 28,
+                "uhValue": 28,
+                "floatValue": 3.923636e-44,
+                "doubleValue": 1.4e-322,
+                "sCode": 28,
+                "fileTime": {
+                    "dwLowDateTime": 28,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 28,
+                    "data": {
+                        "value": 1316118299824
+                    }
+                },
+                "pointerValue": {
+                    "value": 28
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 0
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 1,
+                "bValue": 1,
+                "iValue": 1,
+                "uiValue": 1,
+                "lValue": 1,
+                "ulValue": 1,
+                "intValue": 1,
+                "uIntValue": 1,
+                "hValue": 1,
+                "uhValue": 1,
+                "floatValue": 1.401298e-45,
+                "doubleValue": 5e-324,
+                "sCode": 1,
+                "fileTime": {
+                    "dwLowDateTime": 1,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 1,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "f19f064d-082c-4e27-bc73-6882a1bb8e4c",
+                "propertyID": 0
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 40,
+                "bValue": 40,
+                "iValue": 40,
+                "uiValue": 40,
+                "lValue": 40,
+                "ulValue": 40,
+                "intValue": 40,
+                "uIntValue": 40,
+                "hValue": 40,
+                "uhValue": 40,
+                "floatValue": 5.605194e-44,
+                "doubleValue": 2e-322,
+                "sCode": 40,
+                "fileTime": {
+                    "dwLowDateTime": 40,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 40,
+                    "data": {
+                        "value": 1316118298528
+                    }
+                },
+                "pointerValue": {
+                    "value": 40
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "6737016f-5360-48ee-af05-e616c8ff27a7",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 2,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 0,
+                "uiValue": 0,
+                "lValue": 0,
+                "ulValue": 0,
+                "intValue": 0,
+                "uIntValue": 0,
+                "hValue": 0,
+                "uhValue": 0,
+                "floatValue": 0,
+                "doubleValue": 0,
+                "sCode": 0,
+                "fileTime": {
+                    "dwLowDateTime": 0,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 0,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 0
+                },
+                "boolValue": false,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 2
+            }
+        },
+        {
+            "key": {
+                "id": "fd8a7b27-0b18-4025-ab1c-bdd6b32e1604",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 1,
+                "bValue": 1,
+                "iValue": 1,
+                "uiValue": 1,
+                "lValue": 1,
+                "ulValue": 1,
+                "intValue": 1,
+                "uIntValue": 1,
+                "hValue": 1,
+                "uhValue": 1,
+                "floatValue": 1.401298e-45,
+                "doubleValue": 5e-324,
+                "sCode": 1,
+                "fileTime": {
+                    "dwLowDateTime": 1,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 1,
+                    "data": {
+                        "value": 1316118231408
+                    }
+                },
+                "pointerValue": {
+                    "value": 1
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "908dba32-edff-4c28-8e45-c918561f6748",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 76,
+                "bValue": 76,
+                "iValue": 76,
+                "uiValue": 76,
+                "lValue": 76,
+                "ulValue": 76,
+                "intValue": 76,
+                "uIntValue": 76,
+                "hValue": 76,
+                "uhValue": 76,
+                "floatValue": 1.064987e-43,
+                "doubleValue": 3.75e-322,
+                "sCode": 76,
+                "fileTime": {
+                    "dwLowDateTime": 76,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 76,
+                    "data": {
+                        "value": 1316117998144
+                    }
+                },
+                "pointerValue": {
+                    "value": 76
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "913bc9a7-624b-4a30-96ac-5064a9fc6589",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 2,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 5,
+                "bValue": 5,
+                "iValue": 5,
+                "uiValue": 5,
+                "lValue": 5,
+                "ulValue": 5,
+                "intValue": 5,
+                "uIntValue": 5,
+                "hValue": 5,
+                "uhValue": 5,
+                "floatValue": 7.006492e-45,
+                "doubleValue": 2.5e-323,
+                "sCode": 5,
+                "fileTime": {
+                    "dwLowDateTime": 5,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 5,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 5
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 2
+            }
+        },
+        {
+            "key": {
+                "id": "a45429a4-aa63-4480-b7f8-3f2552daee93",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 66,
+                "bValue": 66,
+                "iValue": 834,
+                "uiValue": 834,
+                "lValue": 834,
+                "ulValue": 834,
+                "intValue": 834,
+                "uIntValue": 834,
+                "hValue": 834,
+                "uhValue": 834,
+                "floatValue": 1.168683e-42,
+                "doubleValue": 4.12e-321,
+                "sCode": 834,
+                "fileTime": {
+                    "dwLowDateTime": 834,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 834,
+                    "data": {
+                        "value": 1316118337504
+                    }
+                },
+                "pointerValue": {
+                    "value": 834
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "a45429a4-aa63-4480-b7f8-3f2552daee93",
+                "propertyID": 3
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 66,
+                "bValue": 66,
+                "iValue": 834,
+                "uiValue": 834,
+                "lValue": 834,
+                "ulValue": 834,
+                "intValue": 834,
+                "uIntValue": 834,
+                "hValue": 834,
+                "uhValue": 834,
+                "floatValue": 1.168683e-42,
+                "doubleValue": 4.12e-321,
+                "sCode": 834,
+                "fileTime": {
+                    "dwLowDateTime": 834,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 834,
+                    "data": {
+                        "value": 1316118338352
+                    }
+                },
+                "pointerValue": {
+                    "value": 834
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "9855c4cd-df8c-449c-a181-8191b68bd06c",
+                "propertyID": 0
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 8,
+                "bValue": 8,
+                "iValue": 8,
+                "uiValue": 8,
+                "lValue": 8,
+                "ulValue": 8,
+                "intValue": 8,
+                "uIntValue": 8,
+                "hValue": 8,
+                "uhValue": 8,
+                "floatValue": 1.121039e-44,
+                "doubleValue": 4e-323,
+                "sCode": 8,
+                "fileTime": {
+                    "dwLowDateTime": 8,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 8,
+                    "data": {
+                        "value": 1316118231248
+                    }
+                },
+                "pointerValue": {
+                    "value": 8
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "a45429a4-aa63-4480-b7f8-3f2552daee93",
+                "propertyID": 4
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 66,
+                "bValue": 66,
+                "iValue": 834,
+                "uiValue": 834,
+                "lValue": 834,
+                "ulValue": 834,
+                "intValue": 834,
+                "uIntValue": 834,
+                "hValue": 834,
+                "uhValue": 834,
+                "floatValue": 1.168683e-42,
+                "doubleValue": 4.12e-321,
+                "sCode": 834,
+                "fileTime": {
+                    "dwLowDateTime": 834,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 834,
+                    "data": {
+                        "value": 1316118342672
+                    }
+                },
+                "pointerValue": {
+                    "value": 834
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "a45429a4-aa63-4480-b7f8-3f2552daee93",
+                "propertyID": 5
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 66,
+                "bValue": 66,
+                "iValue": 834,
+                "uiValue": 834,
+                "lValue": 834,
+                "ulValue": 834,
+                "intValue": 834,
+                "uIntValue": 834,
+                "hValue": 834,
+                "uhValue": 834,
+                "floatValue": 1.168683e-42,
+                "doubleValue": 4.12e-321,
+                "sCode": 834,
+                "fileTime": {
+                    "dwLowDateTime": 834,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 834,
+                    "data": {
+                        "value": 1316118340976
+                    }
+                },
+                "pointerValue": {
+                    "value": 834
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "a45429a4-aa63-4480-b7f8-3f2552daee93",
+                "propertyID": 6
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 66,
+                "bValue": 66,
+                "iValue": 834,
+                "uiValue": 834,
+                "lValue": 834,
+                "ulValue": 834,
+                "intValue": 834,
+                "uIntValue": 834,
+                "hValue": 834,
+                "uhValue": 834,
+                "floatValue": 1.168683e-42,
+                "doubleValue": 4.12e-321,
+                "sCode": 834,
+                "fileTime": {
+                    "dwLowDateTime": 834,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 834,
+                    "data": {
+                        "value": 1316118341824
+                    }
+                },
+                "pointerValue": {
+                    "value": 834
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "4b416b7d-8501-40c1-acfd-97aa9bdc17c8",
+                "propertyID": 1
+            },
+            "value": {
+                "vartype": 4127,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 8,
+                "bValue": 8,
+                "iValue": 8,
+                "uiValue": 8,
+                "lValue": 8,
+                "ulValue": 8,
+                "intValue": 8,
+                "uIntValue": 8,
+                "hValue": 8,
+                "uhValue": 8,
+                "floatValue": 1.121039e-44,
+                "doubleValue": 4e-323,
+                "sCode": 8,
+                "fileTime": {
+                    "dwLowDateTime": 8,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 8,
+                    "data": {
+                        "value": 1316118002464
+                    }
+                },
+                "pointerValue": {
+                    "value": 8
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 4127
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 24
+            },
+            "value": {
+                "vartype": 11,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -1,
+                "bValue": 255,
+                "iValue": -1,
+                "uiValue": 65535,
+                "lValue": 65535,
+                "ulValue": 65535,
+                "intValue": 65535,
+                "uIntValue": 65535,
+                "hValue": 65535,
+                "uhValue": 65535,
+                "floatValue": 9.183409e-41,
+                "doubleValue": 3.23786e-319,
+                "sCode": 65535,
+                "fileTime": {
+                    "dwLowDateTime": 65535,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 65535,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 65535
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 11
+            }
+        },
+        {
+            "key": {
+                "id": "b3f8fa53-0004-438e-9003-51a46e139bfc",
+                "propertyID": 27
+            },
+            "value": {
+                "vartype": 11,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 0,
+                "uiValue": 0,
+                "lValue": 0,
+                "ulValue": 0,
+                "intValue": 0,
+                "uIntValue": 0,
+                "hValue": 0,
+                "uhValue": 0,
+                "floatValue": 0,
+                "doubleValue": 0,
+                "sCode": 0,
+                "fileTime": {
+                    "dwLowDateTime": 0,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 0,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 0
+                },
+                "boolValue": false,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 11
+            }
+        },
+        {
+            "key": {
+                "id": "540b947e-8b40-45bc-a8a2-6a0b894cbda2",
+                "propertyID": 9
+            },
+            "value": {
+                "vartype": 4113,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 20,
+                "bValue": 20,
+                "iValue": 20,
+                "uiValue": 20,
+                "lValue": 20,
+                "ulValue": 20,
+                "intValue": 20,
+                "uIntValue": 20,
+                "hValue": 20,
+                "uhValue": 20,
+                "floatValue": 2.802597e-44,
+                "doubleValue": 1e-322,
+                "sCode": 20,
+                "fileTime": {
+                    "dwLowDateTime": 20,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 20,
+                    "data": {
+                        "value": 1316118329712
+                    }
+                },
+                "pointerValue": {
+                    "value": 20
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 4113
+            }
+        },
+        {
+            "key": {
+                "id": "9a82a7db-3ebb-41b4-83ba-18b7311718fc",
+                "propertyID": 1
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 0,
+                "uiValue": 0,
+                "lValue": 65536,
+                "ulValue": 65536,
+                "intValue": 65536,
+                "uIntValue": 65536,
+                "hValue": 65536,
+                "uhValue": 65536,
+                "floatValue": 9.18355e-41,
+                "doubleValue": 3.2379e-319,
+                "sCode": 65536,
+                "fileTime": {
+                    "dwLowDateTime": 65536,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 65536,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 65536
+                },
+                "boolValue": false,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "233164c8-1b2c-4c7d-bc68-b671687a2567",
+                "propertyID": 1
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 48,
+                "bValue": 48,
+                "iValue": -10960,
+                "uiValue": 54576,
+                "lValue": 1858393392,
+                "ulValue": 1858393392,
+                "intValue": 1858393392,
+                "uIntValue": 1858393392,
+                "hValue": 1316118385968,
+                "uhValue": 1316118385968,
+                "floatValue": 3.04583949e+28,
+                "doubleValue": 6.50248880367e-312,
+                "sCode": 1858393392,
+                "fileTime": {
+                    "dwLowDateTime": 1858393392,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858393392,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118385968
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "8943b373-388c-4395-b557-bc6dbaffafdb",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 11,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -1,
+                "bValue": 255,
+                "iValue": -1,
+                "uiValue": 65535,
+                "lValue": 65535,
+                "ulValue": 65535,
+                "intValue": 65535,
+                "uIntValue": 65535,
+                "hValue": 65535,
+                "uhValue": 65535,
+                "floatValue": 9.183409e-41,
+                "doubleValue": 3.23786e-319,
+                "sCode": 65535,
+                "fileTime": {
+                    "dwLowDateTime": 65535,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 65535,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 65535
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 11
+            }
+        },
+        {
+            "key": {
+                "id": "fb1de864-e06d-47f4-82a6-8a0aef44493c",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 11,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 0,
+                "uiValue": 0,
+                "lValue": 0,
+                "ulValue": 0,
+                "intValue": 0,
+                "uIntValue": 0,
+                "hValue": 0,
+                "uhValue": 0,
+                "floatValue": 0,
+                "doubleValue": 0,
+                "sCode": 0,
+                "fileTime": {
+                    "dwLowDateTime": 0,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 0,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 0
+                },
+                "boolValue": false,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 11
+            }
+        },
+        {
+            "key": {
+                "id": "5a9125b7-f367-4924-ace2-0803a4a3a471",
+                "propertyID": 0
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 120,
+                "bValue": 120,
+                "iValue": 26744,
+                "uiValue": 26744,
+                "lValue": 1610705016,
+                "ulValue": 1610705016,
+                "intValue": 1610705016,
+                "uIntValue": 1610705016,
+                "hValue": 1610705016,
+                "uhValue": 1610705016,
+                "floatValue": 37299340000000000000,
+                "doubleValue": 7.95794014e-315,
+                "sCode": 1610705016,
+                "fileTime": {
+                    "dwLowDateTime": 1610705016,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 1610705016,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1610705016
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "5a9125b7-f367-4924-ace2-0803a4a3a471",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 36,
+                "bValue": 36,
+                "iValue": 18724,
+                "uiValue": 18724,
+                "lValue": -1610528476,
+                "ulValue": 2684438820,
+                "intValue": -1610528476,
+                "uIntValue": 2684438820,
+                "hValue": 2684438820,
+                "uhValue": 2684438820,
+                "floatValue": -1.09509252e-19,
+                "doubleValue": 1.3262889993e-314,
+                "sCode": -1610528476,
+                "fileTime": {
+                    "dwLowDateTime": -1610528476,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": -1610528476,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 2684438820
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "5a9125b7-f367-4924-ace2-0803a4a3a471",
+                "propertyID": 3
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 64,
+                "bValue": 64,
+                "iValue": 576,
+                "uiValue": 576,
+                "lValue": 1610613312,
+                "ulValue": 1610613312,
+                "intValue": 1610613312,
+                "uIntValue": 1610613312,
+                "hValue": 1610613312,
+                "uhValue": 1610613312,
+                "floatValue": 36896020000000000000,
+                "doubleValue": 7.95748706e-315,
+                "sCode": 1610613312,
+                "fileTime": {
+                    "dwLowDateTime": 1610613312,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 1610613312,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1610613312
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "5a9125b7-f367-4924-ace2-0803a4a3a471",
+                "propertyID": 4
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 8448,
+                "uiValue": 8448,
+                "lValue": -1610604288,
+                "ulValue": 2684363008,
+                "intValue": -1610604288,
+                "uIntValue": 2684363008,
+                "hValue": 2684363008,
+                "uhValue": 2684363008,
+                "floatValue": -1.085294e-19,
+                "doubleValue": 1.326251543e-314,
+                "sCode": -1610604288,
+                "fileTime": {
+                    "dwLowDateTime": -1610604288,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": -1610604288,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 2684363008
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "5a9125b7-f367-4924-ace2-0803a4a3a471",
+                "propertyID": 5
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 4352,
+                "uiValue": 4352,
+                "lValue": -1610542848,
+                "ulValue": 2684424448,
+                "intValue": -1610542848,
+                "uIntValue": 2684424448,
+                "hValue": 2684424448,
+                "uhValue": 2684424448,
+                "floatValue": -1.093235e-19,
+                "doubleValue": 1.3262818986e-314,
+                "sCode": -1610542848,
+                "fileTime": {
+                    "dwLowDateTime": -1610542848,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": -1610542848,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 2684424448
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "5a9125b7-f367-4924-ace2-0803a4a3a471",
+                "propertyID": 6
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 13824,
+                "uiValue": 13824,
+                "lValue": -1610598912,
+                "ulValue": 2684368384,
+                "intValue": -1610598912,
+                "uIntValue": 2684368384,
+                "hValue": 2684368384,
+                "uhValue": 2684368384,
+                "floatValue": -1.08598888e-19,
+                "doubleValue": 1.3262541993e-314,
+                "sCode": -1610598912,
+                "fileTime": {
+                    "dwLowDateTime": -1610598912,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": -1610598912,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 2684368384
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "5a9125b7-f367-4924-ace2-0803a4a3a471",
+                "propertyID": 7
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -60,
+                "bValue": 196,
+                "iValue": 22724,
+                "uiValue": 22724,
+                "lValue": 1610700996,
+                "ulValue": 1610700996,
+                "intValue": 1610700996,
+                "uIntValue": 1610700996,
+                "hValue": 1610700996,
+                "uhValue": 1610700996,
+                "floatValue": 37281660000000000000,
+                "doubleValue": 7.95792028e-315,
+                "sCode": 1610700996,
+                "fileTime": {
+                    "dwLowDateTime": 1610700996,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 1610700996,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1610700996
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "5a9125b7-f367-4924-ace2-0803a4a3a471",
+                "propertyID": 8
+            },
+            "value": {
+                "vartype": 19,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 120,
+                "bValue": 120,
+                "iValue": 26744,
+                "uiValue": 26744,
+                "lValue": 1610705016,
+                "ulValue": 1610705016,
+                "intValue": 1610705016,
+                "uIntValue": 1610705016,
+                "hValue": 1610705016,
+                "uhValue": 1610705016,
+                "floatValue": 37299340000000000000,
+                "doubleValue": 7.95794014e-315,
+                "sCode": 1610705016,
+                "fileTime": {
+                    "dwLowDateTime": 1610705016,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 1610705016,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1610705016
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 19
+            }
+        },
+        {
+            "key": {
+                "id": "194ef948-7cdb-403e-9f47-19418f7b24fd",
+                "propertyID": 1
+            },
+            "value": {
+                "vartype": 21,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -53,
+                "bValue": 203,
+                "iValue": -821,
+                "uiValue": 64715,
+                "lValue": 1930099915,
+                "ulValue": 1930099915,
+                "intValue": 1930099915,
+                "uIntValue": 1930099915,
+                "hValue": 1853061004491,
+                "uhValue": 1853061004491,
+                "floatValue": 1.10117221e+31,
+                "doubleValue": 9.15533781967e-312,
+                "sCode": 1930099915,
+                "fileTime": {
+                    "dwLowDateTime": 1930099915,
+                    "dwHighDateTime": 431
+                },
+                "blobValue": {
+                    "length": 1930099915,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1853061004491
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 21
+            }
+        },
+        {
+            "key": {
+                "id": "a2a3fff4-353f-407c-9d86-1f9dc7d5a606",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -108,
+                "bValue": 148,
+                "iValue": 148,
+                "uiValue": 148,
+                "lValue": 148,
+                "ulValue": 148,
+                "intValue": 148,
+                "uIntValue": 148,
+                "hValue": 148,
+                "uhValue": 148,
+                "floatValue": 2.073922e-43,
+                "doubleValue": 7.3e-322,
+                "sCode": 148,
+                "fileTime": {
+                    "dwLowDateTime": 148,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 148,
+                    "data": {
+                        "value": 1316118151056
+                    }
+                },
+                "pointerValue": {
+                    "value": 148
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "74e4357a-7959-47a4-a8b2-feb2ffd48427",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 10,
+                "bValue": 10,
+                "iValue": 10,
+                "uiValue": 10,
+                "lValue": 10,
+                "ulValue": 10,
+                "intValue": 10,
+                "uIntValue": 10,
+                "hValue": 10,
+                "uhValue": 10,
+                "floatValue": 1.401298e-44,
+                "doubleValue": 5e-323,
+                "sCode": 10,
+                "fileTime": {
+                    "dwLowDateTime": 10,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 10,
+                    "data": {
+                        "value": 1316118328624
+                    }
+                },
+                "pointerValue": {
+                    "value": 10
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "1e94c58f-3e40-4ddb-b10c-a86d8b870a31",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 2,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 0,
+                "uiValue": 0,
+                "lValue": 0,
+                "ulValue": 0,
+                "intValue": 0,
+                "uIntValue": 0,
+                "hValue": 0,
+                "uhValue": 0,
+                "floatValue": 0,
+                "doubleValue": 0,
+                "sCode": 0,
+                "fileTime": {
+                    "dwLowDateTime": 0,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 0,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 0
+                },
+                "boolValue": false,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 2
+            }
+        },
+        {
+            "key": {
+                "id": "e4870e26-3cc5-4cd2-ba46-ca0a9a70ed04",
+                "propertyID": 1
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 8,
+                "bValue": 8,
+                "iValue": 8,
+                "uiValue": 8,
+                "lValue": 8,
+                "ulValue": 8,
+                "intValue": 8,
+                "uIntValue": 8,
+                "hValue": 8,
+                "uhValue": 8,
+                "floatValue": 1.121039e-44,
+                "doubleValue": 4e-323,
+                "sCode": 8,
+                "fileTime": {
+                    "dwLowDateTime": 8,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 8,
+                    "data": {
+                        "value": 1316118231616
+                    }
+                },
+                "pointerValue": {
+                    "value": 8
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "24dbb0fc-9311-4b3d-9cf0-18ff155639d4",
+                "propertyID": 1
+            },
+            "value": {
+                "vartype": 11,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": 0,
+                "uiValue": 0,
+                "lValue": 0,
+                "ulValue": 0,
+                "intValue": 0,
+                "uIntValue": 0,
+                "hValue": 0,
+                "uhValue": 0,
+                "floatValue": 0,
+                "doubleValue": 0,
+                "sCode": 0,
+                "fileTime": {
+                    "dwLowDateTime": 0,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 0,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 0
+                },
+                "boolValue": false,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 11
+            }
+        },
+        {
+            "key": {
+                "id": "24dbb0fc-9311-4b3d-9cf0-18ff155639d4",
+                "propertyID": 0
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -80,
+                "bValue": 176,
+                "iValue": 27568,
+                "uiValue": 27568,
+                "lValue": 1423993776,
+                "ulValue": 1423993776,
+                "intValue": 1423993776,
+                "uIntValue": 1423993776,
+                "hValue": 1315683986352,
+                "uhValue": 1315683986352,
+                "floatValue": 7711035000000,
+                "doubleValue": 6.5003425844e-312,
+                "sCode": 1423993776,
+                "fileTime": {
+                    "dwLowDateTime": 1423993776,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1423993776,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1315683986352
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "3d6e1656-2e50-4c4c-8d85-d0acae3c6c68",
+                "propertyID": 3
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 40,
+                "bValue": 40,
+                "iValue": 40,
+                "uiValue": 40,
+                "lValue": 40,
+                "ulValue": 40,
+                "intValue": 40,
+                "uIntValue": 40,
+                "hValue": 40,
+                "uhValue": 40,
+                "floatValue": 5.605194e-44,
+                "doubleValue": 2e-322,
+                "sCode": 40,
+                "fileTime": {
+                    "dwLowDateTime": 40,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 40,
+                    "data": {
+                        "value": 1316118299872
+                    }
+                },
+                "pointerValue": {
+                    "value": 40
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "e4870e26-3cc5-4cd2-ba46-ca0a9a70ed04",
+                "propertyID": 0
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 40,
+                "bValue": 40,
+                "iValue": 40,
+                "uiValue": 40,
+                "lValue": 40,
+                "ulValue": 40,
+                "intValue": 40,
+                "uIntValue": 40,
+                "hValue": 40,
+                "uhValue": 40,
+                "floatValue": 5.605194e-44,
+                "doubleValue": 2e-322,
+                "sCode": 40,
+                "fileTime": {
+                    "dwLowDateTime": 40,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 40,
+                    "data": {
+                        "value": 1316118299920
+                    }
+                },
+                "pointerValue": {
+                    "value": 40
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "624f56de-fd24-473e-814a-de40aacaed16",
+                "propertyID": 3
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 40,
+                "bValue": 40,
+                "iValue": 40,
+                "uiValue": 40,
+                "lValue": 40,
+                "ulValue": 40,
+                "intValue": 40,
+                "uIntValue": 40,
+                "hValue": 40,
+                "uhValue": 40,
+                "floatValue": 5.605194e-44,
+                "doubleValue": 2e-322,
+                "sCode": 40,
+                "fileTime": {
+                    "dwLowDateTime": 40,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 40,
+                    "data": {
+                        "value": 1316118298672
+                    }
+                },
+                "pointerValue": {
+                    "value": 40
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "3d6e1656-2e50-4c4c-8d85-d0acae3c6c68",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 40,
+                "bValue": 40,
+                "iValue": 40,
+                "uiValue": 40,
+                "lValue": 40,
+                "ulValue": 40,
+                "intValue": 40,
+                "uIntValue": 40,
+                "hValue": 40,
+                "uhValue": 40,
+                "floatValue": 5.605194e-44,
+                "doubleValue": 2e-322,
+                "sCode": 40,
+                "fileTime": {
+                    "dwLowDateTime": 40,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 40,
+                    "data": {
+                        "value": 1316118297616
+                    }
+                },
+                "pointerValue": {
+                    "value": 40
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "840b8171-b0ad-410f-8581-cccc0382cfef",
+                "propertyID": 0
+            },
+            "value": {
+                "vartype": 65,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 36,
+                "bValue": 36,
+                "iValue": 292,
+                "uiValue": 292,
+                "lValue": 292,
+                "ulValue": 292,
+                "intValue": 292,
+                "uIntValue": 292,
+                "hValue": 292,
+                "uhValue": 292,
+                "floatValue": 4.091792e-43,
+                "doubleValue": 1.443e-321,
+                "sCode": 292,
+                "fileTime": {
+                    "dwLowDateTime": 292,
+                    "dwHighDateTime": 0
+                },
+                "blobValue": {
+                    "length": 292,
+                    "data": {
+                        "value": 1316118159824
+                    }
+                },
+                "pointerValue": {
+                    "value": 292
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 65
+            }
+        },
+        {
+            "key": {
+                "id": "9c119480-ddc2-4954-a150-5bd240d454ad",
+                "propertyID": 1
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -64,
+                "bValue": 192,
+                "iValue": 11968,
+                "uiValue": 11968,
+                "lValue": 1857826496,
+                "ulValue": 1857826496,
+                "intValue": 1857826496,
+                "uIntValue": 1857826496,
+                "hValue": 1316117819072,
+                "uhValue": 1316117819072,
+                "floatValue": 2.911985e+28,
+                "doubleValue": 6.50248600283e-312,
+                "sCode": 1857826496,
+                "fileTime": {
+                    "dwLowDateTime": 1857826496,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1857826496,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316117819072
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "9c119480-ddc2-4954-a150-5bd240d454ad",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -16,
+                "bValue": 240,
+                "iValue": 16112,
+                "uiValue": 16112,
+                "lValue": 1858158320,
+                "ulValue": 1858158320,
+                "intValue": 1858158320,
+                "uIntValue": 1858158320,
+                "hValue": 1316118150896,
+                "uhValue": 1316118150896,
+                "floatValue": 2.99033468e+28,
+                "doubleValue": 6.50248764226e-312,
+                "sCode": 1858158320,
+                "fileTime": {
+                    "dwLowDateTime": 1858158320,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858158320,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118150896
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "a45c254e-df1c-4efd-8020-67d146a850e0",
+                "propertyID": 14
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 80,
+                "bValue": 80,
+                "iValue": 21072,
+                "uiValue": 21072,
+                "lValue": 1858294352,
+                "ulValue": 1858294352,
+                "intValue": 1858294352,
+                "uIntValue": 1858294352,
+                "hValue": 1316118286928,
+                "uhValue": 1316118286928,
+                "floatValue": 3.02245433e+28,
+                "doubleValue": 6.502488314346e-312,
+                "sCode": 1858294352,
+                "fileTime": {
+                    "dwLowDateTime": 1858294352,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858294352,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118286928
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "026e516e-b814-414b-83cd-856d6fef4822",
+                "propertyID": 2
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": 0,
+                "bValue": 0,
+                "iValue": -16640,
+                "uiValue": 48896,
+                "lValue": 1858322176,
+                "ulValue": 1858322176,
+                "intValue": 1858322176,
+                "uIntValue": 1858322176,
+                "hValue": 1316118314752,
+                "uhValue": 1316118314752,
+                "floatValue": 3.029024e+28,
+                "doubleValue": 6.502488451814e-312,
+                "sCode": 1858322176,
+                "fileTime": {
+                    "dwLowDateTime": 1858322176,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1858322176,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1316118314752
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        },
+        {
+            "key": {
+                "id": "1da5d803-d492-4edd-8c23-e0c0ffee7f0e",
+                "propertyID": 4
+            },
+            "value": {
+                "vartype": 31,
+                "reserved1": 0,
+                "reserved2": 0,
+                "reserved3": 0,
+                "cValue": -128,
+                "bValue": 128,
+                "iValue": -12928,
+                "uiValue": 52608,
+                "lValue": 1424280960,
+                "ulValue": 1424280960,
+                "intValue": 1424280960,
+                "uIntValue": 1424280960,
+                "hValue": 1315684273536,
+                "uhValue": 1315684273536,
+                "floatValue": 7861602000000,
+                "doubleValue": 6.500344003277e-312,
+                "sCode": 1424280960,
+                "fileTime": {
+                    "dwLowDateTime": 1424280960,
+                    "dwHighDateTime": 306
+                },
+                "blobValue": {
+                    "length": 1424280960,
+                    "data": {
+                        "value": 0
+                    }
+                },
+                "pointerValue": {
+                    "value": 1315684273536
+                },
+                "boolValue": true,
+                "date": "1899-12-30T00:00:00",
+                "dataType": 31
+            }
+        }
+    ],
+    "deviceID": "{0.0.0.00000000}.{adb88ef8-7b50-41f9-aee0-1a132c877f78}",
+    "friendlyName": "LG ULTRAWIDE (NVIDIA High Definition Audio)",
+    "devicePath": "\\\\?\\SWD#MMDEVAPI#{0.0.0.00000000}.{adb88ef8-7b50-41f9-aee0-1a132c877f78}#{e6327cad-dcec-4949-ae8a-991e976a79d2}",
+    "deviceState": 1,
+    "dataFlow": 0,
+    "deviceFormat": {
+        "validBitsPerSample": 16,
+        "samplesPerBlock": 16,
+        "channelMask": 3,
+        "subFormat": "00000001-0000-0010-8000-00aa00389b71",
+        "channels": 2,
+        "sampleRate": 48000,
+        "bytesPerSecond": 192000,
+        "blockAlign": 4,
+        "bitsPerSample": 16,
+        "extraSize": 22,
+        "bytesPerSample": 2,
+        "bytesPerBlock": 4,
+        "waveFormatTag": -2
+    },
+    "isDisposed": false,
+    "basePtr": {
+        "value": 1316117877664
+    }
+}

@@ -2,6 +2,7 @@
 using System;
 using System.Runtime.InteropServices;
 using VideoPlayerController;
+using CSCore.CoreAudioAPI;
 
 namespace Core
 {
@@ -67,26 +68,52 @@ namespace Core
                 return $"Display name is {d}";
             });
 
-            connection.On("get_devices", (int pid) =>
+            connection.On("get_devices", () =>
             {
-                string[] f = VideoPlayerController.AudioManager.getPossibleSourceDevices();
+                MMDevice[] f = VideoPlayerController.AudioManager.getPossibleSourceDevices();
                 string d = "";
                 for (var i = 0; i < f.Length; i++)
                 {
                     var dev = f[i];
-                    d += $"{dev}, ";
+                    d += $"{dev}\n";
                 }
-                return $"Display name is {d}";
+                return $"Devices:\n{d}";
             });
 
-            string[] a = VideoPlayerController.AudioManager.getPossibleSourceDevices();
-            string b = "";
+            connection.On("get_processes_devices", () =>
+            {
+                MMDevice[] f = VideoPlayerController.AudioManager.getPossibleSourceDevices();
+                string d = "";
+                for (var i = 0; i < f.Length; i++)
+                {
+                    var dev = f[i];
+                    d += $"{dev}\n";
+                }
+                return $"Devices:\n{d}";
+            });
+            // Use AudioSessionEnumerator
+            MMDevice[] a = VideoPlayerController.AudioManager.getPossibleSourceDevices();
+            //a[0].BasePtr // Native Pointer
+            AudioSessionManager2 sessionManager;
+            AudioSessionEnumerator sessionEnumerator;
+            string final = "";
+            string temp = "";
+            
             for (var i = 0; i < a.Length; i++)
             {
-                var dev = a[i];
-                b += $"{dev}, ";
+                temp = "";
+                // sessionEnumerator = AudioSessionManager2.FromMMDevice(a[i]).GetAudioSessionControl();
+                sessionManager = AudioSessionManager2.FromMMDevice(a[i]);
+                sessionEnumerator = sessionManager.GetSessionEnumerator();
+                for (var j = 0; j < sessionEnumerator.Count; j++)//AudioSessionControl2 obj in sessionEnumerator.)
+                { 
+                    AudioSessionControl obj = sessionEnumerator.GetSession(j);
+                    
+                    temp += ("\t" + obj.DisplayName + "\n");
+                }
+                final += a[i].FriendlyName + " {\n" + temp + "}\n";
             }
-            Console.WriteLine($"Display name is {b}");
+            Console.WriteLine($"{final}");
 
             connection.Listen();    
         }
